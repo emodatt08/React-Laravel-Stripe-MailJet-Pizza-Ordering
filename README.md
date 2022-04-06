@@ -68,7 +68,7 @@ If you happen to have issues after installing try to
 - Modify permissions for the storage and bootstrap directories
 ```
 <h2 id="screenshots">Customer Screenshots</h2>
-<p> Customer pizza menu</p>
+<h6> Customer pizza menu</h6>
 ![](screenshots/pizza_menu.png)
  <p> Customer clicks to order a pizza </p>
 ![](screenshots/pizza_ordering.png)
