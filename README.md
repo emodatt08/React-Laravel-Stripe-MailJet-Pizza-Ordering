@@ -1,4 +1,4 @@
-# Sadat's Pizzeria Service(React/Laravel/Mailgun/Stripe)
+# Sadat's Pizzeria Service(React/Laravel/Mailjet/Stripe)
 A pizza ordering react and laravel app
 ## Features For react front-end
 - Show pizza menu
