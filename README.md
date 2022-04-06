@@ -69,19 +69,19 @@ If you happen to have issues after installing try to
 ```
 <h2 id="screenshots">Customer Screenshots</h2>
 
-- Customer pizza menu 
+<h6> Customer pizza menu </h6>
 
 ![](screenshots/pizza_menu.png)
 
-- Customer clicks to order a pizza 
+<h6> Customer clicks to order a pizza </h6>
 
 ![](screenshots/pizza_ordering.png)
 
-- Customer proceeds to make payment via stripe
+<h6> Customer proceeds to make payment via stripe </h6>
 
 ![](screenshots/stripe_checkout.png)
 
-- Customer payments recorded on stripe
+<h6> Customer payments recorded on stripe </h6>
 
 ![](screenshots/stripe.png)
 
