@@ -1,0 +1,44 @@
+version: '3.5'
+
+services:
+  pizzeria-api:
+    build:
+      context: '.'
+      args:
+        uid: '12345678'
+    container_name: pizzeria-api
+    ports:
+      - 8000:80
+    environment:
+      - APACHE_RUN_USER=#1000
+      - APACHE_RUN_GROUP=#1000
+    volumes:
+      - .:/var/www/html
+    networks:
+      backend:
+        aliases:
+          - app
+
+  pizzeria-api-mysql-db:
+    image: mysql:5.7
+    container_name: pizzeria-api-mysql-db
+    volumes:
+      - ./run/var:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=securerootpassword
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+    restart: unless-stopped
+    
+    ports:
+        - "33061:3306"
+
+    networks:
+      backend:
+        aliases:
+          - pizzeria-api-mysql-db
+
+networks:
+  backend:
+    name: backend-network

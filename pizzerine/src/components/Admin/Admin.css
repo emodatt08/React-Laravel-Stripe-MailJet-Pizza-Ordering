@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap'); */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.main-header{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-bottom: 130px;
+}
+
+.create-form label{
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px !important; 
+  }
+
+.create-form label{
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px !important; 
+  }
+  
+.logInCheckbox{
+  transform: scale(0.5);
+  margin-right:320px !important;
+  color: black;
+}
+
+.checkbox  > label{
+  color: black !important;
+  font-size: 23px !important;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+img{
+  height: 50px;
+  width:50px;
+}
+
+tbody > tr:hover {
+  background-color: black;
+}
+.decline-button {
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.fulfil-button {
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+.pagination{
+  float:right;
+}
+.page-item.active .page-link {
+  color: black !important;
+  background-color: white !important;
+}
+
+.page-item  .page-link{
+  color: #fff !important;
+  background-color: black !important;
+}
+
+.ReactModal__Content--after-open {
+  width: 700px !important;
+  height: 700px !important;
+  
+}
+
+.pac-target-input{
+  display:none !important;
+}
+
+.modal-close-button{
+  float:right;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.modal-fulfil-button{
+  float:left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
