@@ -66,7 +66,7 @@ If you happen to have issues after installing try to
 - Install dependencies with composer if the vendor folder doesn't exist or errors related to dependencise are thrown
 - Clear config, cache, view and route caches with artisan commands
 - Modify permissions for the storage and bootstrap directories
-
+```
 <h2 id="screenshots">Customer Screenshots</h2>
 - Customer pizza menu
 ![](screenshots/pizza_menu.png)
