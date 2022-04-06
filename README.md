@@ -68,6 +68,7 @@ If you happen to have issues after installing try to
 - Modify permissions for the storage and bootstrap directories
 ```
 <h2 id="screenshots">Customer Screenshots</h2>
+
 - Customer pizza menu 
 
 ![](screenshots/pizza_menu.png)
@@ -86,19 +87,35 @@ If you happen to have issues after installing try to
 
 
 <h2 id="screenshots">Admin Screenshots</h2>
+
 - Admin login page
+
 ![](screenshots/admin_login.png)
+
 - Admin sees all pizza orders
+
 ![](screenshots/pizza_orders.png)
+
 - Admin fulfils order
+
 ![](screenshots/fulfil_pizza_order.png)
+
 - Fulfilment email sent
+
 ![](screenshots/fulfilled_email.png)
+
 - Admin declines order with reason
+
 ![](screenshots/decline_pizza_order.png)
+
 - Declinement email sent with reason
+
 ![](screenshots/decline_email.png)
+
 - Admin adds pizza type with pizza image
+
 ![](screenshots/add_pizza_type.png)
+
 - Admin edits pizza type with pizza image
+
 ![](screenshots/edit_pizza_type.png)
