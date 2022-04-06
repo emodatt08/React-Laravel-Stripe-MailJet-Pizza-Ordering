@@ -25,6 +25,7 @@ A pizza ordering react and laravel app
 In the project directory, you can run:
 
 ### `npm install`
+### `set up configs(stripe and googlemaps) in src/Helpers/Url.js
 ### `npm start`
 
 

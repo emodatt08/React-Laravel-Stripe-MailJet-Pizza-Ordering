@@ -1,7 +1,9 @@
 const baseUrl =  "http://localhost/pizzeria-api/public/api";
 const iconUrl =  "http://localhost/pizzeria-api/public/storage/Icons";
 const assetUrl_local =  "/assets/";
-const stripePublicKey = "pk_test_N6y5hXHpI9GDfOa2VgHx53fI";
+const stripePublicKey = "";
+const googleMapsApiKey = "";
+
 const headers = {
     "Content-Type":"application/json",
     "Accept":"application/json",
@@ -17,6 +19,7 @@ let settings = {
 "headers": headers, 
 "imageHeaders": imageHeaders,
 "stripePublicKey": stripePublicKey, 
+"googleMapsApiKey": googleMapsApiKey,
 "iconUrl": iconUrl};
 
 export default settings;

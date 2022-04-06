@@ -11,7 +11,7 @@ import Autocomplete from "react-google-autocomplete";
 import Geocode from "react-geocode";
 import axios from "axios";
 import settings from "./Url";
-Geocode.setApiKey("AIzaSyDTePHiX02RDQhPUlWV6ttVQHLyrPgHhdI");
+Geocode.setApiKey(settings.googleMapsApiKey);
 Geocode.enableDebug();
 class OrderMap extends Component {
   constructor(props) {
@@ -30,6 +30,7 @@ class OrderMap extends Component {
       total_price: this.props.pizza.price,
       latitude : this.props.center.lat,
       longitude:this.props.center.lng,
+      googleMapsApiKey: settings.googleMapsApiKey,
       email:"",
       mapPosition: {
         lat: this.props.center.lat,
@@ -412,7 +413,7 @@ class OrderMap extends Component {
           <p className="mt-5 mb-20" style={{color: "red", marginLeft: "170px"}}>{this.state.responseMessage}</p>
           <div className="mt-5 mb-20">
             <AsyncMap
-                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTePHiX02RDQhPUlWV6ttVQHLyrPgHhdI&libraries=places"
+                googleMapURL={this.state.googleMapsApiKey}
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: this.props.height }} />}
                 mapElement={<div style={{ height: `100%` }} />}
