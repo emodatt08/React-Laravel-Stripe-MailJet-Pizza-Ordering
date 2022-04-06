@@ -83,7 +83,7 @@ If you happen to have issues after installing try to
 
 - Customer payments recorded on stripe
 
-![](screenshots/stripe_checkout.png)
+![](screenshots/stripe.png)
 
 
 <h2 id="screenshots">Admin Screenshots</h2>
