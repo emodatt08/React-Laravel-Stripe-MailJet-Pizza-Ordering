@@ -68,18 +68,20 @@ If you happen to have issues after installing try to
 - Modify permissions for the storage and bootstrap directories
 ```
 <h2 id="screenshots">Customer Screenshots</h2>
-<h6> Customer pizza menu</h6>
+- Customer pizza menu 
 
 ![](screenshots/pizza_menu.png)
 
-<h6> Customer clicks to order a pizza </h6>
+- Customer clicks to order a pizza 
 
 ![](screenshots/pizza_ordering.png)
 
-
 - Customer proceeds to make payment via stripe
+
 ![](screenshots/stripe_checkout.png)
+
 - Customer payments recorded on stripe
+
 ![](screenshots/stripe_checkout.png)
 
 
