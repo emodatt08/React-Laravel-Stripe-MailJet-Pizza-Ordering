@@ -70,7 +70,7 @@ If you happen to have issues after installing try to
 <h2 id="screenshots">Customer Screenshots</h2>
 <p> Customer pizza menu</p>
 ![](screenshots/pizza_menu.png)
-- Customer clicks to order a pizza
+ <p> Customer clicks to order a pizza </p>
 ![](screenshots/pizza_ordering.png)
 - Customer proceeds to make payment via stripe
 ![](screenshots/stripe_checkout.png)
