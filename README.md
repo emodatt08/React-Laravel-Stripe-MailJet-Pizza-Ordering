@@ -88,34 +88,34 @@ If you happen to have issues after installing try to
 
 <h2 id="screenshots">Admin Screenshots</h2>
 
-- Admin login page
+<h6> Admin login page </h6>
 
 ![](screenshots/admin_login.png)
 
-- Admin sees all pizza orders
+<h6> Admin sees all pizza orders </h6>
 
 ![](screenshots/pizza_orders.png)
 
-- Admin fulfils order
+<h6> Admin fulfils order </h6>
 
 ![](screenshots/fulfil_pizza_order.png)
 
-- Fulfilment email sent
+<h6> Fulfilment email sent </h6>
 
 ![](screenshots/fulfilled_email.png)
 
-- Admin declines order with reason
+<h6> Admin declines order with reason </h6>
 
 ![](screenshots/decline_pizza_order.png)
 
-- Declinement email sent with reason
+<h6> Declinement email sent with reason </h6>
 
 ![](screenshots/decline_email.png)
 
-- Admin adds pizza type with pizza image
+<h6> Admin adds pizza type with pizza image </h6>
 
 ![](screenshots/add_pizza_type.png)
 
-- Admin edits pizza type with pizza image
+<h6> Admin edits pizza type with pizza image </h6>
 
 ![](screenshots/edit_pizza_type.png)
