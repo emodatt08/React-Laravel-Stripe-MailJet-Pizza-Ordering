@@ -12,7 +12,7 @@ export default function Navbar() {
     }
 
     function SetLoginDetails() {
-        if(localStorage.getItem('pizzeria.sanctum').length > 1){
+        if(localStorage.getItem('pizzeria.sanctum') && localStorage.getItem('pizzeria.sanctum').length > 1){
            
           return <Link to="/logout">Log Out</Link> 
         }else{

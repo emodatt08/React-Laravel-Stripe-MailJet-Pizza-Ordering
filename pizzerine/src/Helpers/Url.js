@@ -1,8 +1,8 @@
 const baseUrl =  "http://localhost/pizzeria-api/public/api";
 const iconUrl =  "http://localhost/pizzeria-api/public/storage/Icons";
 const assetUrl_local =  "/assets/";
-const stripePublicKey = "";
-const googleMapsApiKey = "";
+const stripePublicKey = "pk_test_N6y5hXHpI9GDfOa2VgHx53fI";
+const googleMapsApiKey = "AIzaSyDTePHiX02RDQhPUlWV6ttVQHLyrPgHhdI";
 
 const headers = {
     "Content-Type":"application/json",
